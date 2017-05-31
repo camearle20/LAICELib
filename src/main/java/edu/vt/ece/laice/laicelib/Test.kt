@@ -7,5 +7,5 @@ package edu.vt.ece.laice.laicelib
 
 fun main(args: Array<String>) {
     val data = LAICEParser.fromFile("vtPowerUpData.bin")
-    println(data.map)
+    println(data.getRPACurrentSamples())
 }
